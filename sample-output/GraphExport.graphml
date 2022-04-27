@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <key id="vertex_label_key" for="node" attr.name="VertexLabel" attr.type="string"/>
+    <key id="edge_label_key" for="edge" attr.name="EdgeLabel" attr.type="string"/>
+    <key id="key0" for="node" attr.name="label" attr.type="string"/>
+    <key id="key1" for="node" attr.name="age" attr.type="string"/>
+    <graph edgedefault="directed">
+        <node id="1">
+            <data key="vertex_label_key">models.Car@1de0aca6</data>
+            <data key="key0">This is a sportcar.</data>
+        </node>
+        <node id="2">
+            <data key="vertex_label_key">models.House@255316f2</data>
+            <data key="key0">This is a big skyscraper.</data>
+        </node>
+        <node id="3">
+            <data key="vertex_label_key">models.Person@41906a77</data>
+            <data key="key0">This is a wealthy owner, let's call him Mike.</data>
+            <data key="key1">30</data>
+        </node>
+        <edge source="3" target="1">
+            <data key="edge_label_key">(models.Person@41906a77 : models.Car@1de0aca6)</data>
+        </edge>
+        <edge source="3" target="2">
+            <data key="edge_label_key">(models.Person@41906a77 : models.House@255316f2)</data>
+        </edge>
+    </graph>
+</graphml>
